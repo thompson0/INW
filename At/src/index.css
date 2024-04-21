@@ -1,0 +1,307 @@
+/*Home*/
+.Conteudo {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-left: 20px;
+}
+
+.Conteudo img {
+  width: 800px;
+  height: 600px;
+  margin-left: 180px
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column; 
+}
+
+.text-button {
+  margin-top: 20px;
+}
+
+.text-container h1 {
+  font-weight: bold;
+  font-size: 100px;
+  margin-bottom: 10px;
+  width: 700px;
+}
+
+.text-container p {
+  font-size: 30px;
+  width: 500px;
+  margin-bottom: 20px;
+}
+.text-button button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 200px; 
+  cursor: pointer;
+  height: 75px; 
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.text-button p {
+  font-size: 30px;
+  margin: 0;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+.Navegacao {
+  padding: 20px;
+  text-align: center;
+}
+
+.Navegacao ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.Navegacao ul li {
+  margin-right: 20px;
+}
+
+.Navegacao ul li:last-child {
+  margin-right: 0;
+}
+
+.Navegacao ul li a {
+  color: #333333;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.Navegacao ul li a:hover {
+  text-decoration: underline;
+}
+
+
+.cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  justify-content: space-between;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+.cards img {
+  width: 30px;
+  height: auto;
+}
+.youtube{
+  position: relative;
+  width: 200px;
+  padding: 20px;
+  border-radius: 25px;
+  text-align: center;
+  background-color: #F1C2B0;
+}
+.youtube h1{
+  color: white;
+  position: absolute;
+  top: -20px;
+  left: 10px;
+  font-size: 50px;
+}
+.youtube img{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.youtube h2 {
+  font-size: 30px;
+  position: absolute;
+  top: 70px;
+  left: 10px;
+}
+
+.youtube p {
+  width: 175px;
+  margin-top: 130px;
+}
+.tiktok {
+  position: relative;
+  width: 200px;
+  padding: 20px;
+  border-radius: 25px;
+  text-align: center;
+  background-color: #F9EB98;
+}
+
+.tiktok h1 {
+  color: white;
+  position: absolute;
+  top: -20px;
+  left: 10px;
+  font-size: 50px;
+}
+
+.tiktok img {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.tiktok h2 {
+  font-size: 30px;
+  position: absolute;
+  top: 70px;
+  left: 10px;
+}
+
+.tiktok p {
+  width: 175px;
+  margin-top: 130px;
+}
+
+.facebook {
+  position: relative;
+  width: 200px;
+  padding: 20px;
+  border-radius: 25px;
+  text-align: center;
+  background-color: #C0D9DD;
+}
+
+.facebook h1 {
+  color: white;
+  position: absolute;
+  top: -20px;
+  left: 10px;
+  font-size: 50px;
+}
+
+.facebook img {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.facebook h2 {
+  font-size: 30px;
+  position: absolute;
+  top: 70px;
+  left: 10px;
+}
+
+.facebook p {
+  width: 175px;
+  margin-top: 130px;
+}
+
+.instagram {
+  position: relative;
+  width: 200px;
+  padding: 20px;
+  border-radius: 25px;
+  text-align: center;
+  background-color: #6975E8;
+}
+
+.instagram h1 {
+  color: white;
+  position: absolute;
+  top: -20px;
+  left: 10px;
+  font-size: 50px;
+}
+
+.instagram img {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.instagram h2 {
+  font-size: 30px;
+  position: absolute;
+  top: 70px;
+  left: 10px;
+}
+
+.instagram p {
+  width: 175px;
+  margin-top: 130px;
+}
+.tiktok {
+  margin-right: 0px; 
+}
+
+.facebook {
+  margin-right: 0px; 
+}
+
+.instagram {
+  margin-right: 0px; 
+}
+
+
+/*Sobre*/
+
+.Conteudosobre {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  margin-left: 20px;
+}
+
+.Conteudosobre img {
+  width: auto;
+  height: 800px;
+  margin-right: 20px;
+  margin-left: 150px;
+}
+
+.text-containersobre {
+  display: flex;
+  flex-direction: column; 
+}
+
+.text-buttonsobre {
+  margin-top: 20px;
+}
+
+.text-containersobre h1 {
+  font-weight: bold;
+  font-size: 100px;
+  margin-bottom: 10px;
+  width: 700px;
+}
+
+.text-containersobre p {
+  font-size: 30px;
+  width: 500px;
+  margin-bottom: 20px;
+}
+.text-buttonsobre button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 200px; 
+  cursor: pointer;
+  height: 75px; 
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.text-buttonsobre p {
+  font-size: 30px;
+  margin: 0;
+}
+
