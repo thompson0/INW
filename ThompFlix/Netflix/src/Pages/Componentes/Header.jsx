@@ -1,10 +1,12 @@
+import Navbar from "./NavBar";
+
 function Header() {
     return ( 
-        <>
-        <h1>
-            Header 
-        </h1>
-        </>
+       <header>
+        <span>Ola visitante</span>
+        <h1>Bem-vindo Ao Movieapp</h1>
+        <Navbar/>
+       </header>
      );
 }
 
