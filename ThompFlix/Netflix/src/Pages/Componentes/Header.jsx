@@ -2,9 +2,8 @@ import Navbar from "./NavBar";
 
 function Header() {
     return ( 
-       <header className="flex bg-black text-white p-4 mb-4 justify-between">
-        <span>Ola visitante</span>
-        <h1>Bem-vindo Ao Movieapp</h1>
+       <header className="flex bg-red-800 text-black font-bold p-4 mb- justify-between ">
+        <span>THOMPFLIX</span>
         <Navbar/>
        </header>
      );
