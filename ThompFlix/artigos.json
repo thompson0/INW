@@ -1,0 +1,50 @@
+[
+    {
+    "title": "Novidades no mundo do cinema",
+    "image": "deadpool.jpg",
+    "text": [
+    "Esta semana foi repleta de novidades emocionantes no mundo do cinema! Novos trailers, anúncios de elenco e detalhes dos bastidores têm deixado os fãs ansiosos para o que está por vir. Não perca nada do que está acontecendo no universo cinematográfico com as últimas atualizações."
+    ],
+    "tags": ["cinema", "podcast"]
+    },
+    {
+    "title": "Discussões e análises sobre os filmes mais recentes",
+    "image": "deadpool1.jpg",
+    "text": [
+    "Participe das discussões animadas sobre os filmes mais recentes na nossa comunidade do Discord! Todos os dias, os amantes do cinema se reúnem para trocar ideias, compartilhar opiniões e descobrir novas pérolas cinematográficas."
+    ],
+    "tags": ["cinema", "discord"]
+    },
+    {
+    "title": "Desafio de criação cinematográfica",
+    "image": "xmen.jpg",
+    "text": [
+    "Você tem talento para contar histórias através da lente da câmera? Então o Desafio de Criação Cinematográfica é para você! Participe deste desafio emocionante, onde cineastas aspirantes têm a chance de mostrar seu talento e criatividade."
+    ],
+    "tags": ["cinema", "desafio", "criação"]
+    },
+    {
+        "title": "Novidades no mundo do cinema",
+        "image": "deadpool.jpg",
+        "text": [
+        "Esta semana foi repleta de novidades emocionantes no mundo do cinema! Novos trailers, anúncios de elenco e detalhes dos bastidores têm deixado os fãs ansiosos para o que está por vir. Não perca nada do que está acontecendo no universo cinematográfico com as últimas atualizações."
+        ],
+        "tags": ["cinema", "podcast"]
+        },
+        {
+        "title": "Discussões e análises sobre os filmes mais recentes",
+        "image": "deadpool1.jpg",
+        "text": [
+        "Participe das discussões animadas sobre os filmes mais recentes na nossa comunidade do Discord! Todos os dias, os amantes do cinema se reúnem para trocar ideias, compartilhar opiniões e descobrir novas pérolas cinematográficas."
+        ],
+        "tags": ["cinema", "discord"]
+        },
+        {
+        "title": "Desafio de criação cinematográfica",
+        "image": "xmen.jpg",
+        "text": [
+        "Você tem talento para contar histórias através da lente da câmera? Então o Desafio de Criação Cinematográfica é para você! Participe deste desafio emocionante, onde cineastas aspirantes têm a chance de mostrar seu talento e criatividade."
+        ],
+        "tags": ["cinema", "desafio", "criação"]
+        }
+]
