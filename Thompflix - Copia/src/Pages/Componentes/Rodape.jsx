@@ -1,7 +1,7 @@
 function Rodape() {
     return (
         <footer
-        class="flex flex-col items-center text-center text-surface bg-red-800 dark:text-white">
+        class="flex flex-col items-center text-center text-surface bg-red-800 dark:text-white w-full mt-9">
         <div class="container pt-9">
        
           <div class="mb-6 flex justify-center space-x-2">

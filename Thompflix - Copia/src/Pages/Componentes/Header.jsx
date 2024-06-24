@@ -1,5 +1,4 @@
 import Navbar from "./NavBar";
-import Rodape from "./Rodape";
 
 function Header() {
     return ( 
