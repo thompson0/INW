@@ -1,106 +1,73 @@
-import './App.css'
+import Header from "./Componentes/Header"
 
 function App() {
-
   return (
     <>
-    <div className='h-screen'>
-        <header>
-          <div className='w-full h-32 bg-red-500 text-red-500'>
-            .
+    <Header/>
+    <div className="w-screen flex">
+      <div className="flex flex-col bg-cyan-500 h-[747px] w-1/4 justify-center items-center"> 
+        <div className="bg-red-600 h-[200px] w-[200px] mb-10"></div>
+        <div className="bg-red-600 h-[200px] w-[200px] mb-10"></div>
+        <div className="bg-red-600 h-[200px] w-[200px]"></div>
+      </div>
+      <div className="grid grid-cols-4 bg-rose-400 w-full h-auto items-center justify-center">
+        <div className="ml-8">
+          <div className="bg-red-600 h-[200px] w-[200px] p-4 mb-10">
+            <div className="bg-cyan-500 h-[50px] mb-16"></div>
+            <div className="bg-cyan-500 h-[50px]"></div>
           </div>
-        </header>
-
-        <main>
-            <div className='w-full h-[750px] bg-red-200 flex flex-row'>
-
-
-
-              <nav className='w-60 h-[750px] bg-cyan-400 text-cyan-400 flex flex-col justify-around items-center'>
-                
-                <div className='w-28 h-28 bg-red-600 text-red-600'>
-                  .
-                </div>
-                <div className='w-28 h-28 bg-red-600 text-red-600'>
-                  .
-                </div>
-                <div className='w-28 h-28 bg-red-600 text-red-600'>
-                  .
-                </div>
-              </nav>
-
-              <div className='flex flex-col justify-between items-center w-full'>
-                <div className='flex gap-10 mt-10 justify-center items-center mb-4'>
-                  <div className='w-28 h-28 bg-red-600 flex flex-col justify-center items-center'>
-                    <div className='flex flex-col items-center'>
-                      <div className='w-20 h-8 bg-cyan-400 mb-4' />
-                      <div className='w-20 h-8 bg-cyan-400' />
-                    </div>
-                  </div>
-                  <div className='w-28 h-28 bg-red-600 flex flex-col justify-center items-center'>
-                    <div className='w-20 h-8 bg-cyan-400 mb-4' />
-                    <div className='w-20 h-8 bg-cyan-400' />
-                  </div>
-                  <div className='w-28 h-28 bg-red-600 flex flex-col justify-center items-center'>
-                    <div className='w-20 h-8 bg-cyan-400 mb-4' />
-                    <div className='w-20 h-8 bg-cyan-400' />
-                  </div>
-                  <div className='w-28 h-28 bg-red-600 flex flex-col justify-center items-center'>
-                    <div className='w-20 h-8 bg-cyan-400 mb-4' />
-                    <div className='w-20 h-8 bg-cyan-400' />
-                  </div>
-                </div>
-
-
-                <div className='flex gap-10 justify-center items-center mb-4'>
-                  <div className='w-28 h-28 bg-red-600 flex flex-col justify-center items-center'>
-                    <div className='flex flex-col items-center'>
-                      <div className='w-20 h-8 bg-cyan-400 mb-4' />
-                      <div className='w-20 h-8 bg-cyan-400' />
-                    </div>
-                  </div>
-                  <div className='w-28 h-28 bg-red-600 flex flex-col justify-center items-center'>
-                    <div className='w-20 h-8 bg-cyan-400 mb-4' />
-                    <div className='w-20 h-8 bg-cyan-400' />
-                  </div>
-                  <div className='w-28 h-28 bg-red-600 flex flex-col justify-center items-center'>
-                    <div className='w-20 h-8 bg-cyan-400 mb-4' />
-                    <div className='w-20 h-8 bg-cyan-400' />
-                  </div>
-                  <div className='w-28 h-28 bg-red-600 flex flex-col justify-center items-center'>
-                    <div className='w-20 h-8 bg-cyan-400 mb-4' />
-                    <div className='w-20 h-8 bg-cyan-400' />
-                  </div>
-                </div>
-
-
-                <div className='flex gap-10 mb-10 justify-center items-center'>
-                  <div className='w-28 h-28 bg-red-600 flex flex-col justify-center items-center'>
-                    <div className='flex flex-col items-center'>
-                      <div className='w-20 h-8 bg-cyan-400 mb-4' />
-                      <div className='w-20 h-8 bg-cyan-400' />
-                    </div>
-                  </div>
-                  <div className='w-28 h-28 bg-red-600 flex flex-col justify-center items-center'>
-                    <div className='w-20 h-8 bg-cyan-400 mb-4' />
-                    <div className='w-20 h-8 bg-cyan-400' />
-                  </div>
-                  <div className='w-28 h-28 bg-red-600 flex flex-col justify-center items-center'>
-                    <div className='w-20 h-8 bg-cyan-400 mb-4' />
-                    <div className='w-20 h-8 bg-cyan-400' />
-                  </div>
-                  <div className='w-28 h-28 bg-red-600 flex flex-col justify-center items-center'>
-                    <div className='w-20 h-8 bg-cyan-400 mb-4' />
-                    <div className='w-20 h-8 bg-cyan-400' />
-                  </div>
-                </div>
-              </div>
-
-                
-
-            </div>
-            
-        </main>
+          <div className="bg-red-600 h-[200px] w-[200px] p-4 mb-10">
+            <div className="bg-cyan-500 h-[50px] mb-16"></div>
+            <div className="bg-cyan-500 h-[50px]"></div>
+          </div>
+          <div className="bg-red-600 h-[200px] w-[200px] p-4">
+            <div className="bg-cyan-500 h-[50px] mb-16"></div>
+            <div className="bg-cyan-500 h-[50px]"></div>
+          </div>
+        </div>
+        <div className="ml-8">
+          <div className="bg-red-600 h-[200px] w-[200px] p-4 mb-10">
+            <div className="bg-cyan-500 h-[50px] mb-16"></div>
+            <div className="bg-cyan-500 h-[50px]"></div>
+          </div>
+          <div className="bg-red-600 h-[200px] w-[200px] p-4 mb-10">
+            <div className="bg-cyan-500 h-[50px] mb-16"></div>
+            <div className="bg-cyan-500 h-[50px]"></div>
+          </div>
+          <div className="bg-red-600 h-[200px] w-[200px] p-4">
+            <div className="bg-cyan-500 h-[50px] mb-16"></div>
+            <div className="bg-cyan-500 h-[50px]"></div>
+          </div>
+        </div>
+        <div className="ml-8">
+          <div className="bg-red-600 h-[200px] w-[200px] p-4 mb-10">
+            <div className="bg-cyan-500 h-[50px] mb-16"></div>
+            <div className="bg-cyan-500 h-[50px]"></div>
+          </div>
+          <div className="bg-red-600 h-[200px] w-[200px] p-4 mb-10">
+            <div className="bg-cyan-500 h-[50px] mb-16"></div>
+            <div className="bg-cyan-500 h-[50px]"></div>
+          </div>
+          <div className="bg-red-600 h-[200px] w-[200px] p-4">
+            <div className="bg-cyan-500 h-[50px] mb-16"></div>
+            <div className="bg-cyan-500 h-[50px]"></div>
+          </div>
+        </div>
+        <div className="ml-8">
+          <div className="bg-red-600 h-[200px] w-[200px] p-4 mb-10">
+            <div className="bg-cyan-500 h-[50px] mb-16"></div>
+            <div className="bg-cyan-500 h-[50px]"></div>
+          </div>
+          <div className="bg-red-600 h-[200px] w-[200px] p-4 mb-10">
+            <div className="bg-cyan-500 h-[50px] mb-16"></div>
+            <div className="bg-cyan-500 h-[50px]"></div>
+          </div>
+          <div className="bg-red-600 h-[200px] w-[200px] p-4">
+            <div className="bg-cyan-500 h-[50px] mb-16"></div>
+            <div className="bg-cyan-500 h-[50px]"></div>
+          </div>
+        </div>
+      </div>
     </div>
     </>
   )
