@@ -2,6 +2,8 @@ import express from 'express';
 import conectaNaDb from './db.js';
 import cors from 'cors';
 import artista from './Models/Artista.js';
+import artista from './Models/Artista.js';
+import artista from './Models/Artista.js';
 const app = express();
 app.use(cors());
 const conexao = await conectaNaDb();
@@ -34,6 +36,12 @@ app.get("/artistas", async (req,res)=>{
     res.status(200).json(listaArtistas);
 })
 
+app.get('/artistas/:id', async (req,res)=>{
+    const artista = await artista.findById(req.params.id);
+    res.status(200).json(artista);
+})
+
 app.listen(3000, ()=> {
     console.log('Servidor Conectado')
 })
+
