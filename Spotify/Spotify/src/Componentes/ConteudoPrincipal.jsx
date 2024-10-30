@@ -5,7 +5,7 @@ function ConteudoPrincipal() {
   const [isLoading, setIsloading] = useState(false);
 
   useEffect(() => {
-    fetch("http://localhost:3000/artistas")
+    fetch("http://localhost:3000/artistas/")
       .then((res) => res.json())
       .then((data) => setArtistas(data))
       .catch((err) => console.log(err))
@@ -20,7 +20,7 @@ function ConteudoPrincipal() {
             artistas
             .filter( artistas => artistas.genero ==="Rap")
             .map( artistas => (
-              <Link to={`/artistas${artistas._id}`}>
+              <Link to={`/artistas/${artistas._id}`}>
             <div className="bg-red-600 h-[200px] w-[200px] p-4 mb-10">
               <h1>{artistas.name}</h1>
             <div className="bg-cyan-500 h-[50px] mb-16"></div>
@@ -36,12 +36,12 @@ function ConteudoPrincipal() {
             artistas
             .filter( artistas => artistas.genero ==="Hip Hop")
             .map( artistas => (
-              <Link to={`/artistas${artistas._id}`}>
+              <Link to={`/artistas/${artistas._id}`}>
               <div className="bg-red-600 h-[200px] w-[200px] p-4 mb-10">
                 <h1>{artistas.name}</h1>
               <div className="bg-cyan-500 h-[50px] mb-16"></div>
             </div>
-                </Link>
+              </Link>
             ))
           }
           
